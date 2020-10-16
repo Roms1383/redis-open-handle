@@ -1,0 +1,45 @@
+{
+  "name": "redis-open-handle",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.4.4",
+    "@nestjs/core": "^7.4.4",
+    "@nestjs/microservices": "^7.4.4",
+    "@nestjs/platform-express": "^7.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ioredis": "^4.17.3",
+    "redis": "^3.0.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.17.5",
+    "@types/node": "^14.11.8",
+    "@types/redis": "^2.8.28",
+    "axios": "^0.20.0",
+    "jest": "^26.5.3",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".(spec|test).ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>"
+    ]
+  }
+}
